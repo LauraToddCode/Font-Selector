@@ -1,0 +1,32 @@
+[
+    {
+        "key": "1",
+        "id": "WorkSans",
+        "fontName": "Work Sans"
+    },
+    {
+        "key": "2",
+        "id": "Georgia",
+        "fontName": "Georgia"
+    },
+    {
+        "key": "3",
+        "id": "Merriweather",
+        "fontName": "Merriweather"
+    },
+    {
+        "key": "4",
+        "id": "Caveat",
+        "fontName": "Caveat"
+    },
+    {
+        "key": "5",
+        "id": "Amatic",
+        "fontName": "Amatic SC"
+    },
+    {
+        "key": "6",
+        "id": "Comfortaa",
+        "fontName": "Comfortaa"
+    }
+]
