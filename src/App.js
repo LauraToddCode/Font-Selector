@@ -4,7 +4,7 @@ import FontSize from "./FontSize";
 import FontCard from "./FontCard"
 
 function App() {
-    const [inputText, setInputText] = React.useState("")
+    const [inputText, setInputText] = React.useState("Sample Text...")
 
     const handleChange = (event) => {
         setInputText(event.target.value)
