@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/font-selector/static/css/main.dec2daba.chunk.css",
-    "main.js": "/font-selector/static/js/main.5679bf64.chunk.js",
-    "main.js.map": "/font-selector/static/js/main.5679bf64.chunk.js.map",
+    "main.js": "/font-selector/static/js/main.bd9280c6.chunk.js",
+    "main.js.map": "/font-selector/static/js/main.bd9280c6.chunk.js.map",
     "runtime-main.js": "/font-selector/static/js/runtime-main.cfe160a2.js",
     "runtime-main.js.map": "/font-selector/static/js/runtime-main.cfe160a2.js.map",
     "static/js/2.6b0f359f.chunk.js": "/font-selector/static/js/2.6b0f359f.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.cfe160a2.js",
     "static/js/2.6b0f359f.chunk.js",
     "static/css/main.dec2daba.chunk.css",
-    "static/js/main.5679bf64.chunk.js"
+    "static/js/main.bd9280c6.chunk.js"
   ]
 }
