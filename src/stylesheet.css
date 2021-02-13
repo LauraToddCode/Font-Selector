@@ -104,6 +104,20 @@ input {
     font-size: 1em;
 }
 
+.form-range {
+    cursor: pointer;
+}
+
+#sliderContainer {
+    display: flex;
+    align-items: center;
+}
+
+#pxDisplay {
+    font-size: .75em;
+    margin-right: 20px;
+}
+
 @media screen and (max-width: 1050px) {
     #wrapper  {
         margin: 20px 10px 0 10px;

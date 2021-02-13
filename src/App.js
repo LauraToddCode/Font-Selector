@@ -1,6 +1,5 @@
 import React from "react";
 import data from "./fontData.json"
-import FontSize from "./FontSize";
 import FontCard from "./FontCard"
 
 function App() {
@@ -10,7 +9,7 @@ function App() {
         setInputText(event.target.value)
     }
 
-    const [ value, setValue ] = React.useState("");
+    const [ value, setValue ] = React.useState("24");
 
     const handleFontSize = (event) => {
         setValue(event.target.value)
@@ -24,7 +23,13 @@ function App() {
                     <label>Type something:</label>
                     <input type="text" id="inputText" placeholder="Sample Text..." onChange={handleChange}/>
                 </div>
-                <FontSize onChangeFontSize={handleFontSize} />
+                <div className="inputContainer">
+                    <label for="customRange1" class="form-label">Choose your font size:</label>
+                    <div id="sliderContainer">
+                        <p id="pxDisplay">{value}px</p>
+                        <input type="range" min="10" max="80" defaultValue="24" class="form-range" id="customRange1" onChange={handleFontSize} />
+                    </div>
+                </div>
             </header>
             
             <div id="cardsContainer">
